@@ -10,7 +10,8 @@ It has three main pages:
 The site demonstrates semantic HTML structure, CSS styling, and JS interactivity (form validation, navigation, etc.).
 
 ## 🚀 Live Website
-[View the live site here]([https://your-username.github.io/your-repo-name/](https://preciousanagwu.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/))
+[View the live site here](https://preciousanagwu.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
+
 
 ## 🛠️ Technologies Used
 - HTML5 for semantic structure
