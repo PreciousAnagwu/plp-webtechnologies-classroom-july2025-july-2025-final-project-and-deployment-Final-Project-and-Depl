@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GlowCrest Jewels — Home</title>
+
+  <!-- Google font (optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Shared header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">GlowCrest Jewels</a>
+
+      <!-- accessible hamburger for mobile -->
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Open menu</span>
+        <!-- simple hamburger icon -->
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+
+      <nav id="main-nav" class="main-nav">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Collections</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <button id="magicBtn">Click me!</button>
+<p id="message"></p>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Handmade jewelry for modern everyday style</h1>
+        <p class="lead">Unique pieces crafted with care — shop small, shine big.</p>
+        <p><a class="btn" href="services.html">See Collections</a></p>
+      </div>
+    </section>
+
+    <section class="features reveal">
+      <div class="container grid grid-3">
+        <article class="card">
+          <h3>Quality Materials</h3>
+          <p>We use long-lasting materials and thoughtful finishing.</p>
+        </article>
+        <article class="card">
+          <h3>Custom Orders</h3>
+          <p>Want a personalized piece? Contact us and we'll work it out.</p>
+        </article>
+        <article class="card">
+          <h3>Sustainable Packaging</h3>
+          <p>Small packaging, big impact — eco friendly where possible.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 GlowCrest Jewels — Built by Precious</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
